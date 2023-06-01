@@ -24,7 +24,7 @@ export default {
         "view_demo": "View live demo",
         "view_source": "View source",
         "ccda_title": "Participa Los Ángeles",
-        "ccda_description": "Web app made for the Los Ángeles Town Hall that allows the creation of surveys using a variety of question types. These surveys are automatically distributed to all registered users. Then the Town Hall gets valuable statistics so they can take more accurate and appropiate decisions in their matters.",
+        "ccda_description": "Web app made for the Los Ángeles Town Hall that allows the creation of surveys using a variety of question types. These surveys are automatically distributed to all registered users. Then the Town Hall gets valuable statistics so they can make more accurate decisions in their matters.",
         "ferreteria_title": "Splade Hardware Store",
         "ferreteria_description": "Project that helps a hardware store keep control of their available stock, handling all product input and output operations. The software also emits alerts in case a product reaches a critical amount of stock.",
         "movies_title": "Movie List",
