@@ -1,38 +1,19 @@
-# create-svelte
+# Portafolio Miguel Higuera
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Mi portafolio de desarrollador con las tecnologías que manejo, información de contacto, y los proyectos en los que he trabajado.
+Creado con [SvelteKit](https://kit.svelte.dev/).
 
-## Creating a project
+## Participa Los Ángeles
 
-If you're seeing this, you've probably already done this step. Congrats!
+Aplicación web creada para la Municipalidad de Los Ángeles que permite la creación de encuestas con varios tipos de pregunta, las cuales son distribuidas a todos los usuarios que estén registrados en el sistema. De las respuestas de los usuarios se obtienen indicadores que ayudan con la toma de decisiones a la municipalidad. 
+Creada utilizando PHP, Laravel, jQuery y MySQL.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Ferretería Splade
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Proyecto que permite a una ferretería tener control de su stock ingresando productos y registrando ventas y compras. El sistema muestra alertas de stock en caso de que se llegue a un nivel crítico.
+Creada utilizando PHP, Laravel, Splade, Vue y MySQL.
 
-## Developing
+## Lista de películas
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Mini aplicación web para un grupo de amigos que permite ingresar películas para realizar un sorteo sobre cual ver. El servicio está integrado con un bot de Discord que permite acceder a la misma funcionalidad y otras adicionales a través de chat.
+Creada utilizando Node, Express, jQuery y MongoDB.
