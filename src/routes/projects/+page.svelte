@@ -1,5 +1,5 @@
 <script>
-    import { t, locale, locales } from "../../store";
+    import { t } from "../../store";
     import ProjectCard from "../../components/ProjectCard.svelte";
 </script>
 <section id="about-me" class="">

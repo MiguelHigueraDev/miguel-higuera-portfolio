@@ -1,8 +1,8 @@
 <script>
-    import { t, locale, locales } from "../../store";
+    import { t } from "../../store";
     import Card from "../../components/Card.svelte";
 </script>
-<section id="about-me" class="">
+<section id="tech-stack" class="">
     <div class="max-w-7xl mx-auto flex flex-col justify-start md:justify-center items-center">
         <div class="block w-full h-[150px] md:h-[150px] lg:h-[120px] xl:h-[130px]"></div>
         <h1 class="text-green-400 text-5xl font-bold p-5">{$t('technologies_title')}</h1>

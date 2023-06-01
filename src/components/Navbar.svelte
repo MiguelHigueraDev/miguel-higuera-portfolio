@@ -29,7 +29,7 @@
           <a
             class="text-2xl font-bold text-green-400 md:text-2xl hover:text-white"
             href="/" on:click={hideNavbar}
-            >Miguel Higuera
+            >Miguel Higuera.
           </a>
 
           <div on:click={toggleNavbar} class="flex md:hidden">
