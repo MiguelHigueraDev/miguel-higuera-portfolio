@@ -22,7 +22,13 @@
             <p class="bg-red-800 rounded p-2 text-sm text-white cursor-not-allowed shadow-md">{$t('private_source')}</p>
             {/if}
         </div>
-        <img class="mx-auto mt-3 w-auto h-auto" src={projectImage} alt={projectTitle} />
+        {#if projectTitle == "Participa Los Ángeles"}
+            <img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/ccda/1.png" alt={projectTitle} />
+        {:else if projectTitle == "Splade Hardware Store" || projectTitle == "Ferretería Splade"}
+            <img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/ferreteria/3.png" alt={projectTitle} />
+        {:else if projectTitle == "Movie List" || projectTitle == "Lista de películas"}
+            <img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/movies/1.png" alt={projectTitle} />
+        {/if}
         <h1 class="font-bold text-xl mt-3">{projectTitle}</h1>
         <h2 class="font-normal mt-1">{projectDescription}</h2>
         <ol class="list-none flex gap-3 mt-3">

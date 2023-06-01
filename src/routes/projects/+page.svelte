@@ -11,19 +11,19 @@
             projectDescription={$t('ccda_description')}
             projectLiveURL=""
             projectSourceURL=""
-            projectImage="../src/lib/assets/projects/ccda/1.png"
+            projectImage="../lib/assets/projects/ccda/1.png"
             technologies={['Laravel', 'jQuery', 'MySQL']} />
             <ProjectCard projectTitle={$t('ferreteria_title')}
             projectDescription={$t('ferreteria_description')}
             projectLiveURL=""
             projectSourceURL=""
-            projectImage="../src/lib/assets/projects/ferreteria/3.png"
+            projectImage="../lib/assets/projects/ferreteria/3.png"
             technologies={['Laravel', 'Splade', 'Vue', 'MySQL']} />
             <ProjectCard projectTitle={$t('movies_title')}
             projectDescription={$t('movies_description')}
             projectLiveURL="https://randommovie.miguelhiguera1.repl.co/"
             projectSourceURL="https://replit.com/@MiguelHiguera1/RandomMovie"
-            projectImage="../src/lib/assets/projects/movies/1.png"
+            projectImage="../lib/assets/projects/movies/1.png"
             technologies={['Node', 'Express', 'jQuery', 'MongoDB',]} />
             
         </div>
