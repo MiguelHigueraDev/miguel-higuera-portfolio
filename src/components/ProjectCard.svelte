@@ -49,6 +49,10 @@
                 <li class="bg-green-800 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
             {:else if tech === "MySQL"}
                 <li class="bg-blue-700 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
+            {:else if tech === "Svelte"}
+                <li class="bg-orange-500 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
+            {:else if tech === "SvelteKit"}
+                <li class="bg-orange-700 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
             {:else}
                 <li class="bg-gray-600 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
             {/if}
