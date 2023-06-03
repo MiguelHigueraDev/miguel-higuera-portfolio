@@ -28,8 +28,10 @@
             <img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/ferreteria/3.png" alt={projectTitle} />
         {:else if projectTitle == "Movie List" || projectTitle == "Lista de películas"}
             <img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/movies/1.png" alt={projectTitle} />
+        {:else if projectTitle == "MoodList"}
+            <img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/moodlist/1.png" alt={projectTitle} />
         {/if}
-        <h1 class="font-bold text-xl mt-3">{@html projectTitle}</h1>
+        <h1 class="font-bold text-xl mt-3">{projectTitle}</h1>
         <h2 class="font-normal mt-1">{projectDescription}</h2>
         <ol class="list-none flex gap-3 mt-3">
         {#each technologies as tech }
