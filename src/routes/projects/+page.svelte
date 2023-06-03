@@ -9,7 +9,7 @@
         <div class="block md:grid md:grid-cols-2 gap-3 mt-5">
             <ProjectCard projectTitle={$t('moodlist_title')}
             projectDescription={$t('moodlist_description')}
-            projectLiveURL="https://moodlist.vercel.com"
+            projectLiveURL="https://moodlist.vercel.app/"
             projectSourceURL=""
             technologies={['Svelte', 'SvelteKit']}
             />

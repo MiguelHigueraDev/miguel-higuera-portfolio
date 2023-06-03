@@ -30,7 +30,7 @@ export default {
         "movies_title": "Movie List",
         "movies_description": "Small web application made for a friend group that lets users add movies to a list. Then users can get a random movie from the list to watch. The service has a Discord Bot integration that lets users access the same functionality, besides some added new functions.",
         "moodlist_title": "MoodList",
-        "moodlist_description": "Web application powered by the Spotify API that recommends songs based on your musical taste and also in parameters like energy level, mood, danceability, etc. You can listen to previews of the songs and add them easily to your Spotify library. NOTE: For now you have to request access to the live demo @ miguelhiguera.dev@gmail.com since it's not yet approved for public use by Spotify.",
+        "moodlist_description": "Web application powered by the Spotify API that recommends songs based on your musical taste and also in parameters like energy level, mood, danceability, etc. You can listen to previews of the songs and add them easily to your Spotify library. NOTE: You have to request access to the live demo @ miguelhiguera.dev@gmail.com since it's not yet approved for public use by Spotify.",
     },
     es: {
         "about_me": "Sobre mí",
