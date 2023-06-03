@@ -10,7 +10,7 @@
             <ProjectCard projectTitle={$t('moodlist_title')}
             projectDescription={$t('moodlist_description')}
             projectLiveURL="https://moodlist.vercel.app/"
-            projectSourceURL=""
+            projectSourceURL="https://github.com/MiguelHigueraDev/moodlist/"
             technologies={['Svelte', 'SvelteKit']}
             />
             <ProjectCard projectTitle={$t('ccda_title')}
