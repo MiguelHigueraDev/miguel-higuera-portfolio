@@ -29,6 +29,8 @@ export default {
         "ferreteria_description": "Project that helps a hardware store keep control of their available stock, handling all product input and output operations. The software also emits alerts in case a product reaches a critical amount of stock.",
         "movies_title": "Movie List",
         "movies_description": "Small web application made for a friend group that lets users add movies to a list. Then users can get a random movie from the list to watch. The service has a Discord Bot integration that lets users access the same functionality, besides some added new functions.",
+        "moodlist_title": "MoodList",
+        "moodlist_description": "Web application powered by the Spotify API that recommends songs based on your musical taste and also in parameters like energy level, mood, danceability, etc. You can listen to previews of the songs and add them easily to your Spotify library. <span class='text-sm'>NOTE: The Live demo doesn't work for everyone unless you are authorized to use the app, because the app is not yet approved by Spotify for general use. You can request access to the live demo by <span class='text-green-400'><a href='mailto:miguelhiguera.dev@gmail.com'>mailing me.</a></span></span>"
     },
     es: {
         "about_me": "Sobre mí",
@@ -60,5 +62,7 @@ export default {
         "ferreteria_description": "Proyecto que permite a una ferretería tener control de su stock ingresando productos y registrando ventas y compras. El sistema muestra alertas de stock en caso de que se llegue a un nivel crítico.",
         "movies_title": "Lista de películas",
         "movies_description": "Mini aplicación web para un grupo de amigos que permite ingresar películas para realizar un sorteo sobre cual ver. El servicio está integrado con un bot de Discord que permite acceder a la misma funcionalidad y otras adicionales a través de chat.",
+        "moodlist_title": "MoodList",
+        "moodlist_description": "Aplicacion web que funciona con la API de Spotify que recomienda canciones basadas en tu gusto musical y parámetros definidos por el usuario como nivel de energía, estado de ánimo, bailabilidad, etc. Puedes escuchar muestras de cada recomendación y agregarlas fácilmente a tu biblioteca. <span class='text-sm'>AVISO: La demo no funciona para cualquiera aún debido a que Spotify aún no me autoriza para que cualquier persona pueda utilizar la aplicación. Puedes <span class='text-green-400'><a href='mailto:miguelhiguera.dev@gmail.com'>enviarme un email</a></span> si quieres solicitar acceso.</span>"
     }
 }
