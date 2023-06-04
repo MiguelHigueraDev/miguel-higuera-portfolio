@@ -23,7 +23,7 @@
             {/if}
         </div>
         {#if projectTitle == "Participa Los Ángeles"}
-            <img class="mx-auto mt-3 w-[1920px] h-[1080px]" src="../lib/assets/projects/ccda/1.png" alt={projectTitle} />
+            <img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/ccda/1.png" alt={projectTitle} />
         {:else if projectTitle == "Splade Hardware Store" || projectTitle == "Ferretería Splade"}
             <img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/ferreteria/3.png" alt={projectTitle} />
         {:else if projectTitle == "Movie List" || projectTitle == "Lista de películas"}
