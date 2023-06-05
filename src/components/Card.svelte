@@ -16,10 +16,10 @@
                     <img src='../lib/assets/images/javascript.png' class="w-20 h-20 sm:w-40 sm:h-40 object-contain" alt={frontend[0]}>
                     <h3 class="text-center font-semibold mb-3">{frontend[0]}</h3>
                 </div>
-                <div>
+                <!--<div>
                     <img src='../lib/assets/images/jquery.png' class="w-20 h-20 sm:w-40 sm:h-40 object-contain" alt={frontend[1]}>
                     <h3 class="text-center font-semibold mb-3">{frontend[1]}</h3>
-                </div>
+                </div>-->
                 <div>
                     <img src='../lib/assets/images/vue.png' class="w-20 h-20 sm:w-40 sm:h-40 object-contain" alt={frontend[2]}>
                     <h3 class="text-center font-semibold mb-3">{frontend[2]}</h3>
