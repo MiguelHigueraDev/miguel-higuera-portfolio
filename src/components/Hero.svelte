@@ -16,5 +16,10 @@
             </Typewriter>
         </div>
 
+        <section id="nav-buttons" class="flex flex-col md:flex-row md:gap-4 mt-10">
+            <a href="/about-me" class="text-center text-white tracking-wide text-xl md:text-2xl lg:text-3xl font-semibold mb-5 bg-green-500 hover:bg-green-300 hover:text-black p-6 rounded-lg shadow-xl">{$t('about_me')}</a>
+        </section>
+        
+
     </div>
 </div>
