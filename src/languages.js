@@ -33,6 +33,8 @@ export default {
         "movies_description": "Small web application made for a friend group that lets users add movies to a list. Then users can get a random movie from the list to watch. The service has a Discord Bot integration that lets users access the same functionality, besides some added new functions.",
         "moodlist_title": "MoodList",
         "moodlist_description": "Web application powered by the Spotify API that recommends songs based on your music taste and also in parameters like energy level, mood, danceability, etc. You can listen to previews of the songs and add them easily to your Spotify library. NOTE: You have to request access to the live demo @ miguelhiguera.dev@gmail.com since it's not yet approved for public use by Spotify.",
+        "dygingenierias_title": "D&G Ingenierías",
+        "dygingenierias_description": "A website made for the company D&G Ingenierías. The website was built from scratch, according to the client's requirements."
     },
     es: {
         "about_me": "Sobre mí",
@@ -68,5 +70,7 @@ export default {
         "movies_description": "Mini aplicación web para un grupo de amigos que permite ingresar películas para realizar un sorteo sobre cual ver. El servicio está integrado con un bot de Discord que permite acceder a la misma funcionalidad y otras adicionales a través de chat.",
         "moodlist_title": "MoodList",
         "moodlist_description": "Aplicacion web que funciona con la API de Spotify que recomienda canciones basadas en tu gusto musical y parámetros definidos por el usuario como nivel de energía, estado de ánimo, bailabilidad, etc. Puedes escuchar muestras de cada recomendación y agregarlas fácilmente a tu biblioteca. AVISO: Escríbeme a miguelhiguera.dev@gmail.com si quieres acceso a la app, ya que aún no está aprobada para uso público por Spotify.",
+        "dygingenierias_title": "D&G Ingenierías",
+        "dygingenierias_description": "Sitio web creado para la empresa D&G Ingenierías. El diseño fue hecho desde cero, de acuerdo a los requerimientos del cliente."
     }
 }

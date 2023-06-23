@@ -76,6 +76,8 @@
         </LightboxGallery>
         {:else if projectTitle == "MoodList"}
             <Lightbox><img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/moodlist/1.png" alt={projectTitle} /></Lightbox>
+        {:else if projectTitle == "D&G Ingenierías"}
+            <Lightbox><img class="mx-auto mt-3 w-auto h-auto" src="../lib/assets/projects/dygingenierias/1.png" alt={projectTitle} /></Lightbox>
         {/if}
         <h1 class="font-bold text-xl mt-3">{projectTitle}</h1>
         <h2 class="font-normal mt-1">{projectDescription}</h2>
