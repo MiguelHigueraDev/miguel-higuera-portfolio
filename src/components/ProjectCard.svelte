@@ -89,13 +89,13 @@
                 <li class="bg-pink-600 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
             {:else if tech === "Node"}
             <li class="bg-green-400 rounded p-2 text-sm text-gray font-semibold tracking-wide cursor-default">{tech}</li>
-            {:else if tech === "jQuery"}
+            {:else if tech === "jQuery" || tech === "React"}
                 <li class="bg-blue-600 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
             {:else if tech === "Vue"}
                 <li class="bg-green-600 rounded p-2 text-sm text-gray font-semibold tracking-wide cursor-default">{tech}</li>
             {:else if tech === "MongoDB"}
                 <li class="bg-green-800 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
-            {:else if tech === "MySQL"}
+            {:else if tech === "MySQL" || tech === "Next.JS"}
                 <li class="bg-blue-700 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
             {:else if tech === "Svelte"}
                 <li class="bg-orange-500 rounded p-2 text-sm text-white font-semibold tracking-wide cursor-default">{tech}</li>
