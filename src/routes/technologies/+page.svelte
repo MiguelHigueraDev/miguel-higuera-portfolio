@@ -9,7 +9,8 @@
         <div class="flex flex-col gap-3 mt-5 overflow-auto">
             <Card techStackTitle="Front-End" techStack="frontend" />
             <Card techStackTitle="Back-End" techStack="backend" />
-            <Card techStackTitle={$t('database')} techStack="database"/>
+            <Card techStackTitle={$t('database')} techStack="database" />
+            <Card techStackTitle="Extras" techStack="extras" />
         </div>
         <a href="/projects" class="text-center text-white tracking-wide text-xl md:text-2xl lg:text-2xl my-10 font-semibold bg-green-500 hover:bg-green-300 hover:text-black p-6 rounded-lg shadow-xl">{$t('projects')}</a>
     </div>
